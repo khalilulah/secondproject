@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="secondproject.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+    <section><h3>freeCodeCamp Survey Form</h3></section> 
+    <p><i>Thank you for taking the time to help us impove this platform</i></p>
+        </div>
+    <div>
+        <form>
+            <div class="form1">
+              <div class="group">
+                  <label for="name" class="row"> Name</label>
+                  <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+              </div>
+              <div class="group">
+                  <label for="email" class="row">Email</label>
+                  <input type="text" id="email" class="form-control" placeholder="Enter your Email" required>
+              </div>
+              <div class="group">
+                <label for="age" class="row">Age(optional)</label>
+                <input type="text" id="age" class="form-control" min="15" max="80" placeholder="age" required>
+              </div>
+            </div>  
+            <div class="group">
+                <label for="role" class="row">Which option best describe your current role?</label>
+                <select name="role" id="role" placeholder="select an option" required >
+                    <option value="select an option">Select an option</option>
+                    <option value="student">Student</option>
+                    <option value="full time job">Full time job</option>
+                    <option value="full time learner">Full time learner</option>
+                    <option value="prefer not to say">Prefer not to say</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            <div class="group" >
+                <p>would you recommend freeCodeCamp to a friend?</p>
+                <p>
+                <label>
+                    <input type="radio" class="checkbox" checked>Definitely
+                </label>
+                </p>
+                <p>
+                <label>
+                    <input type="radio" class="checkbox">Maybe
+                </label>
+                </p>
+                <p>
+                <label>
+                    <input type="radio" class="checkbox">Not Sure
+                </label>
+                </p>        
+            </div>
+            <div class="group">
+                <label for="feature" class="row">What is your favourite feature on free code camp?</label>
+                <select name="feature" id="feature" required>
+                    <option value="select an option">Select An Option</option>
+                    <option value="chalenges">Chalenges</option>
+                    <option value="project">Project</option>
+                    <option value="open source">Open Source</option>
+                </select>    
+            </div> 
+               <div class="group">
+                   <p>
+                       What would you like to see improved? <span>(check all that applies)</span>
+                   </p>
+                <p>
+                <label for="front-end projects">
+                    <input type="checkbox" class="checkbox" value="front-end projets" checked>Front-end projects
+                </label>
+                </p> 
+                <p>
+                <label for="back-end projects">
+                    <input type="checkbox" class="checkbox" value="back-end projets">Back-end projets
+                </label>
+                </p>
+                <p>
+                <label for="Data Visualisation">
+                    <input type="checkbox" class="checkbox" value="Data Visualisation">Data Visualisation
+                </label>
+                </p>
+                <p>
+                <label for="challenges">
+                    <input type="checkbox" class="checkbox" value="challenges">Challenges
+                </label>
+                </p>
+                 <p>
+                <label for="Open Source Community">
+                    <input type="checkbox" class="checkbox" value="Open Source Community">Open Source Community
+                </label>
+                </p>
+                <p>
+                <label for="Gitter help rooms">
+                    <input type="checkbox" class="checkbox" value="Gitter help room">Gitter help room
+                </label>
+                </p>
+                <p>
+                <label for="videos">
+                    <input type="checkbox" class="checkbox" value="videos">Videos
+                </label>
+                </p>
+                <p>
+                <label for="city meetup">
+                    <input type="checkbox" class="checkbox" value="city meetup">City meetup
+                </label>
+                </p>
+                <p>  
+                <label for="wiki">
+                    <input type="checkbox" class="checkbox" value="wiki">Wiki
+                </label>
+                </p>
+                <p>
+                <label for="forum">
+                    <input type="checkbox" class="checkbox" value="forum">Forum
+                </label>
+                </p>
+                <p>
+                <label for="Additional Course">
+                    <input type="checkbox" class="checkbox" value="Additional Course">Additional Course
+                </label>
+                </p>
+             </div> 
+             <div class="group">
+                 <p>
+                    Any sugestion?
+                </p>
+                    <textarea name="comment" id="comment" rows="6" cols="50" placeholder="Enter your comment here......">
+
+                    </textarea>
+             </div>
+             <div class="group">
+                <button type="submit" id="submit">submit</button>
+             </div>
+        </form>
+    </div>
+    </div>    
+</body>
+</html>
